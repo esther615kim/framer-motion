@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Toppings = ({ addTopping, pizza }) => {
-  let toppings = ['mushrooms', 'peppers', 'onions', 'olives', 'extra cheese', 'tomatoes'];
+  let toppings = ['Botox', 'AqualGold Facial', 'SUNEKOS', 'Dissolving Fillers', 'others'];
 
   return (
     <div className="toppings container">

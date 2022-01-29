@@ -18,9 +18,10 @@ body, ul, h1, h2, h3, p, button, a, div{
   text-decoration: none;
 }
 body{
-  background: rgb(100,0,123);
-  background: radial-gradient(circle, rgba(100,0,123,1) 0%, rgba(62,20,86,1) 100%);
+  background: rgb(103,47,246);
+  background: linear-gradient(341deg, rgba(103,47,246,1) 0%, rgba(89,48,249,1) 19%, rgba(88,140,201,1) 99%);
   overflow: hidden;
+  height:100vh;
 }
 button{
   color: white;

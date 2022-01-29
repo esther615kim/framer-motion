@@ -5,11 +5,11 @@ const Home = () => {
   return (
     <div className="home container">
       <h2>
-        Welcome to Pizza Joint
+        Private London Clinic
       </h2>
       <Link to="/base">
         <button>
-          Create Your Pizza
+          Book your appointment
         </button>
       </Link>
     </div>
