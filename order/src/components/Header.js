@@ -1,10 +1,13 @@
 import React from 'react';
+import {motion} from 'framer-motion';
+
 
 const Header = () => {
   return (
     <header>
       <div className="logo">
         <svg className="pizza-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        {/* logo shpae */}
           <path
             fill="none"
             d="M40 40 L80 40 C80 40 80 80 40 80 C40 80 0 80 0 40 C0 40 0 0 40 0Z"
@@ -15,9 +18,13 @@ const Header = () => {
           />
         </svg>
       </div>
-      <div className="title">
+      <motion.div className="title"
+          initial ={{y:-200}}
+          animate={{y:0}}
+          transition={{delay:0.2}}
+      >
         <h1>Your Appointment</h1>
-      </div>
+      </motion.div>
     </header>
   )
 }
