@@ -11,7 +11,8 @@ const Base = ({ addBase, pizza }) => {
     animate={{x:0}}
     transition={{type:'spring', delay:0.3, duration:0.2}}>
       <h3>Step 1</h3>
-      <ul>
+      <motion.ul
+                  whileHover={{scale:1.05,originX:0,color:'#F9F871'}}>
         {bases.map((base) => {
           let spanClass = pizza.base === base ? "active" : "";
           return (
@@ -20,7 +21,7 @@ const Base = ({ addBase, pizza }) => {
             </li>
           );
         })}
-      </ul>
+      </motion.ul>
 
       {pizza.base && (
         <motion.div className="next"

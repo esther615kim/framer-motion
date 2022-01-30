@@ -15,7 +15,7 @@ const Home = () => {
       <Link to="/base">
         <motion.button
                     whileHover={{
-                      scale:1.01,
+                      scale:1.05,
                       textShadow:"0px 0px 10px rgb(255,255,255)",
                       boxShadow:"0px 0px 10px rbg(255,255,255)"
                     }}
